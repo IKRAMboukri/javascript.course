@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        .container{
+            border-radius: solid;
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            height: 350px;
+            margin: auto;
+            padding: 30px;
+            background-color: white;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        body{
+            margin-top:55px ;
+            background-color: pink;
+        }
+        .error{
+            border: 2px solid red;
+        }
+        
+    </style>
+<body>
+    
+<div class="container">
+    <h1>Sign Up</h1>
+    <label for="name">Username:</label>
+    <input type="text" id="name">
+    <label for="em">Email:</label>
+    <input type="text" id="em">
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd">
+    <label for="pwd"> Confirm Password:</label>
+    <input type="password" id="pwd">
+    <label for="slct"> Confirm Password:</label>
+    <select id="slct">
+        <option value="Dev"></option>
+        <option value="DI"></option>
+        <option value="gestion"></option>
+    </select>
+    <button class="test">SIGN UP</button>
+    
+
+</div>
+
+ <script src="script-12.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.container{
+    height:100px;
+    width: 500px;
+    background-color: blueviolet;
+}
+.bordure{
+    border: solid 2px red;
+    border-radius: 8px;
+}
+.encadrer{
+    border: 4px solid green;
+}

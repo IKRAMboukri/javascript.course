@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+
+
+
+
+
+
+    <script>
+        // let nom = /Ikram?/i;
+        let nom = /DD[0-9]{3}/gi;
+        let searchText = /(DD)([0-9]{3})/gi;
+
+        let prenom = new RegExp('ikrame?');
+        const article = "  Lorem ipsum dolor sit,ikrame amet DD105 consectetur DD106 adipisicing elit.ikram DD104 Sint quaerat dolorem maiores quas ipsum optio id, repudiandae adipisci tempora. Adipisci incidunt ducimus modi laborum totam hic quidem eveniet, assumenda architecto!";
+        // SEARCH METHOD
+        // let position = article.search(nom);
+        //MATCH METHOD
+        let groupesDD = article.match(nom)
+        //REPLACE METHOD
+       //let updatedArticle = article.replace(nom , "BOUKRI");
+       let updatedArticle = article.replace(searchText , "$1 -1A - $2");
+       //SPLITE METHOD
+       let modules = "php/HTML-CSS_POO";
+       let ListModules = modules.split(/[/_]/);
+       //pettern
+       let tester = searchText.test(artilce);
+       //test method pattern
+
+       let chercherElem = searchText.exec(artilce);
+
+       
+
+
+
+
+        console.log(chercherElem)
+    </script>
+</body>
+</html>

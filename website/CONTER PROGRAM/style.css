@@ -1,0 +1,19 @@
+#btnContainer {
+  text-align: center;
+}
+button {
+  width: 150px;
+  height: 40px;
+  background-color: rgba(79, 160, 210, 0.944);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover{
+    background-color:rgb(13, 147, 230); 
+}
+#countLabel{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}

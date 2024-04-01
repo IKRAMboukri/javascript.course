@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form action="#" method="get" onsubmit="">
+    <label>homme</label>
+    <input type="radio" name="g1" id="r1">
+    <label>femme</label>
+    <input type="radio" name="g1" id="r2"><br><br>
+    
+    <input type="checkbox" id="ch1" value="je suis une societe">
+    <label for="ch1">oui,je suis une societe</label><br><br>
+
+    <label>Nom de societe</label><br>
+    <input type="text" id="nomSociete"><br><br>
+
+    <label>Titre de profil</label><br>
+    <input type="text" id="profil" size="40" placeholder="Ex: Developpeur senior en php"><br><br>
+
+    <label>TPays/Villes</label><br>
+    <select id="pays">
+        <option value="0"> selectionner</option>
+        <option value="1"> Maroc/Benimellal</option>
+        <option value="2"> Maroc/Rabatl</option>
+    </select><br><br>
+    <label>Telephone*</label><br>
+    <input type="text" id="Telephone">
+
+    <input type="checkbox" id="ch2" >
+    <label for="ch2">Disponibilite</label><br><br>
+
+    <label>Tarifs</label>
+    <input type="text" id="tarifs" placeholder="Ex:400"><br><br>
+
+    <h3>Competence metriser</h3><br><br>
+
+    <select id="s1">
+        <option value="0"> selectionner</option>
+        <option value="1">Php/Mysql</option>
+        <option value="1">Java/Oracle</option>
+    </select>
+
+    <select id="s2">
+        <option value="0"> selectionner</option>
+        <option value="1">Senior</option>
+        <option value="1">Debutant</option>
+    </select>
+
+    <input type="button" value="ajouter" onclick="ajouter()"><br><br>
+
+    <h3>Liste de vos competence</h3><br><br>
+    <select id="s3" size="5">
+      
+    </select><br>
+    <input type="button" value="valider" onclick="valider()">
+   </form> 
+   <div id="diverreur">
+
+   </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
