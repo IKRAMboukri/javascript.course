@@ -18,25 +18,25 @@
 
 
 
-// document.getElementById("btn-load", loadTxt).addEventListener("click",loadTxt);
-// function  loadTxt(e){
-    // e.preventDefault();
+    // document.getElementById("btn-load", loadTxt).addEventListener("click",loadTxt);
+    // function  loadTxt(e){
+        // e.preventDefault();
 
-    // let request = new XMLHttpRequest();
+        // let request = new XMLHttpRequest();
 
-    // request.open("GET", "sample.txt", true);
-//1st method 
-    // request.onreadystatechange = function(){
-    //     if(this.readyState == 4 && this.status == 200){
-    //     document.getElementById("container").innerHTML = this.responseText;
-    //    }
-      
-    // };X
-    // request.send()
+        // request.open("GET", "sample.txt", true);
+    //1st method 
+        // request.onreadystatechange = function(){
+        //     if(this.readyState == 4 && this.status == 200){
+        //     document.getElementById("container").innerHTML = this.responseText;
+        //    }
+        
+        // };X
+        // request.send()
 
-    
-// }
-// document.getElementById("btn-load-json").addEventListener("click",loadTxt);
+        
+    // }
+    // document.getElementById("btn-load-json").addEventListener("click",loadTxt);
 
 
 document.querySelector("btn").addEventListener("click",loadData)

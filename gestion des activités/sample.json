@@ -1,0 +1,13 @@
+ {"stagiaires" : [
+    {"id":1, "nom":"boukri", "prenom":"ikram"},
+    {"id":2, "nom":"benhaddar", "prenom":"hanane"},
+    {"id":3, "nom":"Iness", "prenom":"boukri"},
+    
+ ],
+ "activites":[
+    {"id":101, "nom":"dance"},
+    {"id":2, "nom":"muscilation"},
+    {"id":3, "nom":"theatre"},
+    {"id":3, "nom":"football"}
+ ]
+}

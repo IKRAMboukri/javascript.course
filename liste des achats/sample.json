@@ -1,0 +1,7 @@
+{
+    "categories" : [
+        {"id" : 1, "libelle":"informatique"},
+        {"id" : 2, "libelle":"bureautique"},
+        {"id" : 3, "libelle":"materiel"}
+    ]
+}
