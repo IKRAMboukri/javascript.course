@@ -56,7 +56,7 @@ function chargement(){
            document.getElementById("categorie").innerHTML = categoriesOpt;
         }
     }
-    xhr.send()
+    xhr.send();
 }
 
 function sauvegarder(e){
