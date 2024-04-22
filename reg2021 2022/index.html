@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Notes des stagiaires</h1>
+    <fieldset><legend>Nouvelle ligne</legend>
+        <div>
+            <label for="id1">ID:</label>
+            <input type="text" id="id1">
+            <button id="lire">lire</button>
+        </div><br>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom"><br><br>
+            <div>
+                <label>Filiere:</label>
+                <input type="radio" id="TDI" name="a">
+                <label>TDI</label>
+                <input type="radio" id="TDM" name="a">
+                <label>TDM</label>
+                <input type="radio" id="TRI" name="a">
+                <label>TRI</label>
+            </div><br>
+            <label for="note">Note:</label>
+            <input type="text" id="note"><br><br>
+            <button id="ajouter">Ajouter la note</button>
+            <table border="solid 2px" id="tableau">
+                
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>NOM</th>
+                        <th>NOTE</th>
+                        <th>FILIERE</th>
+                        <th>GESTION</th>
+                      </tr>
+                    </thead>
+                    
+                      <tr>
+                        <td>1</td>
+                        <td>Alami Hicham</td>
+                        <td>8</td>
+                        <td>TDI</td>
+                        <td>
+                          <input type="button" value="Supprimer" id="supprimer" />
+                        </td>
+                      </tr>
+                      <tbody id="tdata">
+
+                      </tbody>
+                    
+                    
+                      <tr>
+                        <th colspan="2">La Meilleure Note :</th>
+                        <td id="noteMax">8</td>
+                      </tr>
+                      
+                    
+                  
+            </table>
+
+    
+    
+    
+    
+    </fieldset>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
