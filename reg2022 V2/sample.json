@@ -1,0 +1,5 @@
+{
+  "consoles" :[{"ref":"SWITCH","prix":4500,"Manette":2,"image":"images/img1.jpg"},
+               {"ref":"playStation","prix":8000,"Manette":2,"image":"images/img2.jpg"}
+]
+}

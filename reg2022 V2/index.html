@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <fieldset>
+    <legend>Commander des consoles </legend>
+    <h3>console</h3><br>
+    Choisir un console:
+    <select id="console">
+
+    </select><br>Quantite:
+    <input type="number" id="quantite"><br><br>
+
+    <input type="button" id="addToCart" value="Ajouter au panier" ><br>
+    <form id="form">
+      Panier de commande <br><br>
+      <table id="panier" border="solid">
+        <th>Reference</th>
+        <th>prix</th>
+        <th>quantite</th>
+        <th>image</th>
+        <th>supprimer</th>
+        <tbody id="tbody">
+
+        </tbody>
+
+      </table>
+      <table id="lesPrix">
+         <tr>
+          <td>prix HT:</td>
+          <td><span id="prixHT">0</span></td>
+         </tr>
+         <tr>
+          <td>prix TTC:</td>
+          <td><span id="prixTTC">0</span></td>
+         </tr>
+      </table>
+      <input type="submit" value="comander">
+
+    </form>
+
+
+  </fieldset>
+  
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
